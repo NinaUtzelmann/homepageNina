@@ -1,0 +1,22 @@
+#myCarousel{
+    width: 100% !important;
+    margin-bottom: 50px;
+}
+#zeugnis{
+    color: #d9b44a !important;
+}
+
+.container{
+   margin-bottom: 50px;
+}
+
+#link{
+    font-size: 1.5rem;
+    color: #75B1A9;
+}
+
+@media screen and (max-width: 770px) {
+    #link{
+        font-size: 1.2rem;
+    }
+}

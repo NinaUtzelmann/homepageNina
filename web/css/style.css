@@ -1,0 +1,59 @@
+#hr{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+#maintext{
+    position: absolute;
+}
+
+.p, p, #p{
+    color: #4F6457;
+    font-size: 1.5rem;
+}
+
+.h1, h1, #h1{
+    color: #d9b44a;
+    font-size: 3rem;
+}
+
+.h2, h2, #h2{
+    color: #4F6457;
+    font-size: 3rem;
+}
+
+#background{
+    height: auto;
+    width: 100%;
+    position:fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -5;
+}
+#nina{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 65%;
+}
+#bottom{
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 770px) {
+    #nina {
+        height: 48%;
+    }
+    h1, #h1{
+        font-size: 2rem;
+    }
+    h2, #h2 {
+        font-size: 2rem;
+    }
+    p, #p{
+        color: #4F6457;
+        font-size: 1.2rem;
+    }
+}
